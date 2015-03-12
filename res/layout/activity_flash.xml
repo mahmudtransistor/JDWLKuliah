@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.mahmud.jdwlkuliah.Flash" >
+
+    <ImageView
+        android:id="@+id/iconmenuutama"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:adjustViewBounds="true"
+        android:background="@drawable/icon_flashscreen"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

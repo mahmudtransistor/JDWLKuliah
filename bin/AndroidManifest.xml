@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.mahmud.jdwlkuliah"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Flash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUtama"
+            android:label="@string/title_activity_menu_utama" >
+        </activity>
+        <activity
+            android:name=".DetailHari"
+            android:label="@string/title_activity_detail_hari" >
+        </activity>
+        <activity
+            android:name=".Tambahhari"
+            android:label="@string/title_activity_tambahhari" >
+        </activity>
+        <activity
+            android:name=".DetailSelasa"
+            android:label="@string/title_activity_detail_selasa" >
+        </activity>
+        <activity
+            android:name=".TambahSelasa"
+            android:label="@string/title_activity_tambah_selasa" >
+        </activity>
+        <activity
+            android:name=".DetailRabu"
+            android:label="@string/title_activity_detail_rabu" >
+        </activity>
+        <activity
+            android:name=".DetailKamis"
+            android:label="@string/title_activity_detail_kamis" >
+        </activity>
+        <activity
+            android:name=".DetailJumat"
+            android:label="@string/title_activity_detail_jumat" >
+        </activity>
+        <activity
+            android:name=".DetailSabtu"
+            android:label="@string/title_activity_detail_sabtu" >
+        </activity>
+        <activity
+            android:name=".TambahRabu"
+            android:label="@string/title_activity_tambah_rabu" >
+        </activity>
+        <activity
+            android:name=".TambahKamis"
+            android:label="@string/title_activity_tambah_kamis" >
+        </activity>
+        <activity
+            android:name=".TambahJumat"
+            android:label="@string/title_activity_tambah_jumat" >
+        </activity>
+        <activity
+            android:name=".TambahSabtu"
+            android:label="@string/title_activity_tambah_sabtu" >
+        </activity>
+        <activity
+            android:name=".Aboutme"
+            android:label="@string/title_activity_aboutme" >
+        </activity>
+        <activity
+            android:name=".PenggunaanApk"
+            android:label="@string/title_activity_penggunaan_apk" >
+        </activity>
+    </application>
+
+</manifest>

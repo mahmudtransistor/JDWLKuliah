@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.mahmud.jdwlkuliah.TambahKamis" >
+
+    <item
+        android:id="@+id/action_simpan"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/action_simpan"/>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JDWL Kuliah</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_tambah">Tambah</string>
+    <string name="action_simpan">Simpan</string>
+    <string name="action_about">About me</string>
+    <string name="action_penggunaan">Penggunaan Apk</string>
+    <string name="title_activity_menu_utama">Pilih berdasarkan hari</string>
+
+    <!-- hari pada jurusan yang di pilih di listview menu -->
+    <string-array name="nama_hari">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string name="title_activity_detail_hari">Jadwal hari senin</string>
+    <string name="title_activity_tambahhari">Add New</string>
+    <string name="title_activity_detail_selasa">Jadwal hari selasa</string>
+    <string name="title_activity_tambah_selasa">Add New</string>
+    <string name="title_activity_detail_rabu">Jadwal hari rabu</string>
+    <string name="title_activity_detail_kamis">Jadwal hari kamis</string>
+    <string name="title_activity_detail_jumat">Jadwal hari jumat</string>
+    <string name="title_activity_detail_sabtu">Jadwal hari sabtu</string>
+    <string name="title_activity_tambah_rabu">Add New</string>
+    <string name="title_activity_tambah_kamis">Add New</string>
+    <string name="title_activity_tambah_jumat">Add New</string>
+    <string name="title_activity_tambah_sabtu">Add New</string>
+    <string name="title_activity_aboutme">About me</string>
+    <string name="title_activity_penggunaan_apk">Penggunaan Apk</string>
+
+</resources>
